@@ -15,6 +15,10 @@ toyShop = {
 
 toyShop['fluffyToy'] = ['bear', 'dog', 'cat']
 del(toyShop['puzzles'][0])
+print(toyShop['puzzles'])
+toyShop['puzzles'].remove('Batman')
+
+print(toyShop['puzzles'])
 toyShop['dolls'] += 100
 
 print(toyShop)

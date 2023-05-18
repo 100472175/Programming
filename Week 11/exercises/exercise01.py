@@ -95,9 +95,9 @@ class Student:
             else:
                 raise TypeError("Humanities has an incorrect type")
 
-        def __repr__(self):
-            return self.name + ', ' + self.surname + ', ' + str(self.programming) + ', ' + str(self.algebra) + ', ' + \
-                   str(self.calculus) + ', ' + str(self.physics) + ', ' + str(self.skills) + ', ' + str(self.humanities)
+    def __repr__(self):
+        return self.name + ', ' + self.surname + ', ' + str(self.programming) + ', ' + str(self.algebra) + ', ' + \
+                str(self.calculus) + ', ' + str(self.physics) + ', ' + str(self.skills) + ', ' + str(self.humanities)
 
         def __str__(self):
             return self.name + ', ' + self.surname + ', ' + str(self.programming) + ', ' + str(self.algebra) + ', ' + \
